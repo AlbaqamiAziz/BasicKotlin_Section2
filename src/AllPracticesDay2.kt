@@ -31,5 +31,21 @@ fun main(){
     list.addAll(listOf(2,3,4,5))
     println(list) // [1, 2, 3]
 
+    // 2D ArrayLists
+
+    val credentials = arrayListOf<ArrayList<String>>()
+
+    credentials.add(ArrayList(listOf("user1", "12345")))
+    credentials.add(ArrayList(listOf("user2", "password")))
+    credentials.add(ArrayList(arrayListOf("Bob", "00000")))
+    credentials.add(ArrayList(arrayListOf("Tim", "55555")))
+
+    println(credentials[2][0])  // --> Bob
+    println(credentials[0][1])  // --> 12345
+    println(credentials.get(0).get(1))
+
+
+
+
 
 }
