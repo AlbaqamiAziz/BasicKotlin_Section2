@@ -8,3 +8,14 @@
 4- Arrays and Lists can hold more than one data type at a time
 
 
+
+#2d
+ val credentials = arrayListOf<ArrayList<String>>()
+ val country = readLine().toString()
+ print("City : ")
+ val city = readLine().toString()
+ // to ways to add :
+ countriesCapitals.add(ArrayList(listOf(country,city)))
+ countriesCapitals.add(arrayListOf(country, city))
+
+

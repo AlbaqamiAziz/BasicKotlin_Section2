@@ -7,7 +7,8 @@ fun main() {
         val country = readLine().toString()
         print("City : ")
         val city = readLine().toString()
-        countriesCapitals.add(ArrayList(listOf(country,city)))
+        //countriesCapitals.add(ArrayList(listOf(country,city)))
+        countriesCapitals.add(arrayListOf(country, city))
     }
 
     println("Country with its capital city ")
