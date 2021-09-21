@@ -1,0 +1,10 @@
+#Lists and Arrays :
+
+1- Lists are immutable. Once we create a List, we cannot make any changes to it.
+2- Arrays are mutable. We can change each item at any time.
+
+3- both Lists and Arrays have fixed sizes. ( ArrayList can add additional items )
+
+4- Arrays and Lists can hold more than one data type at a time
+
+
